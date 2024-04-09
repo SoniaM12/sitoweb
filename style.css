@@ -1,0 +1,140 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+    
+}
+
+header {
+    background-color: #43FF6D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 16px 0; 
+}
+
+header nav {
+    margin-right: 10px; 
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "pt mono";
+    font-size: 24px;
+}
+
+header p {
+    font-family: "inconsolata";
+    color: black;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: "Audiowide";
+    color: #43FF6D;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 150%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+p {
+    color: #FFF;
+    font-family: "PT Mono";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84%; 
+    letter-spacing: 1.75px;
+} 
+
+section {
+    padding: 100px;
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h1 {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.info .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.info .container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.container {
+    padding: 80px;
+    gap: 50px;
+    display: flex;
+}
+.container p{
+    letter-spacing: 1px; 
+}
+footer {
+    background-color: #43FF6D;
+    color: black;
+    padding: 50px; 
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+
+footer p {
+    color: rgb(205, 125, 201);
+    margin-bottom: 50px; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color:blueviolet;
+    font-family: Audiowide;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 176%; 
+    letter-spacing: 12px;
+    text-transform: uppercase;
+   
+}
+
+footer img {
+    max-width: 100%; 
+    height: auto; 
+}
